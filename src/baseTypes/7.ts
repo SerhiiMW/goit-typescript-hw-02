@@ -13,6 +13,6 @@ Saturday,
 Sunday,
 }
 
-const isWeekend = (Days): boolean => { 
+const isWeekend = (Days : any): boolean => { 
   return Days[Days.Saturday] | Days[Days.Sunday] ? true : false;
 }
